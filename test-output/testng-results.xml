@@ -1,25 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-25T00:54:15 IST" name="Default suite" finished-at="2024-09-25T00:55:32 IST" duration-ms="76949">
+  <suite started-at="2024-09-30T21:15:52 IST" name="Default suite" finished-at="2024-09-30T21:16:05 IST" duration-ms="12858">
     <groups>
     </groups>
-    <test started-at="2024-09-25T00:54:15 IST" name="Default test" finished-at="2024-09-25T00:55:32 IST" duration-ms="76949">
-      <class name="testcases.SignupTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.SignupTest@293a5bf6]" started-at="2024-09-25T00:54:16 IST" name="setup" finished-at="2024-09-25T00:55:28 IST" duration-ms="72082" status="PASS">
+    <test started-at="2024-09-30T21:15:52 IST" name="Default test" finished-at="2024-09-30T21:16:05 IST" duration-ms="12858">
+      <class name="testcases.TestBoxTest">
+        <test-method is-config="true" signature="LauchURL()[pri:0, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:15:52 IST" name="LauchURL" finished-at="2024-09-30T21:16:03 IST" duration-ms="11511" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="RegistrationPageSignupbtn()[pri:0, instance:testcases.SignupTest@293a5bf6]" started-at="2024-09-25T00:55:28 IST" name="RegistrationPageSignupbtn" finished-at="2024-09-25T00:55:32 IST" duration-ms="4136" status="PASS">
+        </test-method> <!-- LauchURL -->
+        <test-method signature="clickelements()[pri:0, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:03 IST" name="clickelements" finished-at="2024-09-30T21:16:04 IST" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegistrationPageSignupbtn -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.SignupTest@293a5bf6]" started-at="2024-09-25T00:55:32 IST" name="tearDown" finished-at="2024-09-25T00:55:32 IST" duration-ms="643" status="PASS">
+        </test-method> <!-- clickelements -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:04 IST" name="TearDown" finished-at="2024-09-30T21:16:04 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.SignupTest -->
+        </test-method> <!-- TearDown -->
+        <test-method signature="clicktextbox()[pri:1, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:04 IST" name="clicktextbox" finished-at="2024-09-30T21:16:04 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicktextbox -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:04 IST" name="TearDown" finished-at="2024-09-30T21:16:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="FullName()[pri:2, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:04 IST" name="FullName" finished-at="2024-09-30T21:16:04 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FullName -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:04 IST" name="TearDown" finished-at="2024-09-30T21:16:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="Email()[pri:3, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:04 IST" name="Email" finished-at="2024-09-30T21:16:04 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:04 IST" name="TearDown" finished-at="2024-09-30T21:16:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="CurrentAddress()[pri:4, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:04 IST" name="CurrentAddress" finished-at="2024-09-30T21:16:04 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CurrentAddress -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:04 IST" name="TearDown" finished-at="2024-09-30T21:16:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="PermanentAddress()[pri:5, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:04 IST" name="PermanentAddress" finished-at="2024-09-30T21:16:05 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PermanentAddress -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:05 IST" name="TearDown" finished-at="2024-09-30T21:16:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="clicksubmitbutton()[pri:6, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:05 IST" name="clicksubmitbutton" finished-at="2024-09-30T21:16:05 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksubmitbutton -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.TestBoxTest@1fa268de]" started-at="2024-09-30T21:16:05 IST" name="TearDown" finished-at="2024-09-30T21:16:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testcases.TestBoxTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
