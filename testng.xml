@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Test" enabled="true">
+  <test name="LoginTest" enabled="true">
+    <classes>
+      <class name="testcases.LoginTest"/>
+    </classes>
+  </test>
+  
+  <test name="TestBoxTest" enabled="true">
     <classes>
       <class name="testcases.TestBoxTest"/>
     </classes>

@@ -2,11 +2,10 @@ package testpages;
 
 import java.io.IOException;
 
-import org.openqa.selenium.support.PageFactory;
 
-import baseclass.TestBase;
+import baseclass.BaseClass;
 
-public class Login_Page extends TestBase {
+public class Login_Page extends BaseClass {
 
 	
 	public Login_Page() throws IOException {

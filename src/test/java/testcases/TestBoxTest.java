@@ -6,10 +6,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import baseclass.TestBase;
+import baseclass.BaseClass;
 import testpages.TestBoxPage;
 
-public class TestBoxTest extends TestBase {
+public class TestBoxTest extends BaseClass {
 	TestBoxPage ob;
 	public TestBoxTest() throws IOException {
 		PageFactory.initElements(driver, this);
@@ -54,6 +54,14 @@ public class TestBoxTest extends TestBase {
 	@Test(priority = 6)
 	public void clicksubmitbutton() {
 		ob.clicksubmitbutton();
+	}
+	
+	@Test(priority = 7)
+	public void verify() {
+		ob.verifyname();
+		ob.verifyemail();
+		ob.verifycurrentaddress();
+		ob.verifypermanentaddress();
 	}
 
 }
